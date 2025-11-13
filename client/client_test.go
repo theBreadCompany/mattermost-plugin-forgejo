@@ -87,7 +87,7 @@ func TestGetToken(t *testing.T) {
 		token := &oauth2.Token{
 			AccessToken:  "abcdef",
 			RefreshToken: "cdfafasd",
-			Expiry:       time.Now().Truncate(time.Microsecond),
+			Expiry:       time.Now().Truncate(time.Microsecond).UTC(),
 		}
 
 		b := new(bytes.Buffer)

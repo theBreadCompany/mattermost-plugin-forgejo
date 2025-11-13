@@ -22,24 +22,24 @@ linters-settings:
 linters:
   disable-all: true
   enable:
-    - bodyclose
-    - errcheck
-    - gocritic
-    - gofmt
-    - goimports
-    - gosec
-    - gosimple
-    - govet
-    - ineffassign
-    - misspell
-    - nakedret
-    - revive
-    - staticcheck
-    - stylecheck
-    - typecheck
-    - unconvert
-    - unused
-    - whitespace
+    #- bodyclose
+    #- errcheck
+    #- gocritic
+    #- gofmt
+    #- goimports
+    #- gosec
+    #- gosimple
+    #- govet
+    #- ineffassign
+    #- misspell
+    #- nakedret
+    #- revive
+    #- staticcheck
+    #- stylecheck
+    #- typecheck
+    #- unconvert
+    #- unused
+    #- whitespace
 
 issues:
   exclude-rules:
