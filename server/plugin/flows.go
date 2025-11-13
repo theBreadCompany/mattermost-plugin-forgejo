@@ -549,7 +549,7 @@ func (fm *FlowManager) submitOAuthConfig(f *flow.Flow, submitted map[string]inte
 
 	clientID = strings.TrimSpace(clientID)
 
-	if len(clientID) != 20 {
+	if len(clientID) != 36 {
 		errorList["client_id"] = "Client ID should be 20 characters long"
 	}
 
@@ -564,7 +564,7 @@ func (fm *FlowManager) submitOAuthConfig(f *flow.Flow, submitted map[string]inte
 
 	clientSecret = strings.TrimSpace(clientSecret)
 
-	if len(clientSecret) != 40 {
+	if len(clientSecret) != 56 {
 		errorList["client_secret"] = "Client Secret should be 40 characters long"
 	}
 
